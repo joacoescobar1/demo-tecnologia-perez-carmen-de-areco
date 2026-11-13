@@ -1,0 +1,57 @@
+codigo,nombre,marca,rubro,precio_mostrador,stock,unidad
+FIL-ACE-160,Correa agrícola B68,ejemplo,Cosechadora,8500,42,unid.
+FIL-ACE-20D,Filtro de aceite 2.0 diesel,FiltroSur,Cosechadora,11200,28,unid.
+FIL-AIR-GOL,Filtro de aire cosechadora,FiltroSur,Cosechadora,9800,35,unid.
+FIL-CAB-UNI,Filtro de habitáculo carbón,FiltroSur,Cosechadora,12900,22,unid.
+FIL-COM-D20,Filtro de combustible diesel,FiltroSur,Cosechadora,15400,16,unid.
+PAS-DEL-GOL,Pastillas de freno delanteras cosechadora,FrenoMax,Cosechadora,38900,18,juego
+PAS-TRA-COR,Pastillas de freno traseras cosechadora,FrenoMax,Cosechadora,45200,11,juego
+DIS-DEL-UNA,Disco de freno delantero 239 mm,FrenoMax,Cosechadora,27800,14,unid.
+LIQ-FRE-DOT,Líquido de frenos DOT 4 500 ml,FrenoMax,Cosechadora,6200,60,unid.
+BUJ-IR-4PK,Bujías iridio kit x4,ChispaNorte,Cosechadora,24600,20,kit
+BUJ-CO-4PK,Bujías cobre kit x4,ChispaNorte,Cosechadora,8900,48,kit
+COR-AUX-6PK,Correa auxiliar 6PK 1215,CampoRex,Cosechadora,13400,25,unid.
+COR-DIS-127,Correa de distribución 127 dientes,CampoRex,Cosechadora,29800,9,unid.
+TEN-COR-UNI,Tensor de correa universal,CampoRex,Cosechadora,22100,7,unid.
+AMO-DEL-PAL,Amortiguador delantero sembradora,SuspensionN,Cosechadora,67400,8,unid.
+AMO-TRA-GOL,Amortiguador trasero cosechadora,SuspensionN,Cosechadora,51200,10,unid.
+RES-DEL-COR,Resorte delantero tractor,SuspensionN,Cosechadora,33800,6,unid.
+ROT-DIR-UNI,Rotula de dirección izquierda,SuspensionN,Cosechadora,18700,15,unid.
+BAT-12-75A,Batería 12V 75 Ah bornes normales,EnerNorte,Cosechadora,118900,12,unid.
+BAT-12-45A,Batería 12V 45 Ah compacta,EnerNorte,Cosechadora,89400,9,unid.
+KIT-EMB-1P6,Kit de embrague 1.6,TransNorte,Cosechadora,142500,5,kit
+ROD-RUE-620,Rodamiento de rueda 6205,CampoRex,Cosechadora,16300,24,unid.
+RAD-ALU-GOL,Radiador aluminio cosechadora,FrioNorte,Cosechadora,97800,4,unid.
+BOM-AGU-UNA,Bomba de agua 1.8,FrioNorte,Cosechadora,41200,8,unid.
+TER-82C-UNI,Termostato 82 °C,FrioNorte,Cosechadora,7600,30,unid.
+ACE-SYN-5W4,Aceite sintético 5W40 4L,LubriCampo,Cosechadora,28900,40,bidón
+ACE-SEM-15W,Aceite semisentético 15W40 4L,LubriCampo,Cosechadora,18400,55,bidón
+ESC-ESC-500,Escobillas delanteras 500 mm par,VisionN,Cosechadora,9200,33,par
+MOT-CAD-428,Cadena 428 x 128 eslabones,Motolínea,Cabezales,15600,21,unid.
+MOT-KIT-TRA,Kit de transmisión 428 14/42,Motolínea,Cabezales,24800,14,kit
+MOT-PAS-CBR,Pastillas de freno delanteras cabezal,FrenoMax,Cabezales,8900,26,juego
+MOT-ACE-20W,Aceite de motor 20W50 1L,LubriCampo,Cabezales,6400,70,unid.
+MOT-FIL-125,Filtro de aceite cabezal,FiltroSur,Cabezales,3200,45,unid.
+MOT-BUD-IRI,Bujía iridio cabezal,ChispaNorte,Cabezales,4100,38,unid.
+MOT-CAM-18,Cámara 18 pulgadas,Motolínea,Cabezales,7800,19,unid.
+MOT-CUB-110,Cubierta 110/90-17 calle,Motolínea,Cabezales,45600,7,unid.
+MOT-MAN-HID,Manguera hidráulica de freno 90 cm,Motolínea,Cabezales,5400,16,unid.
+MOT-BAT-5AH,Batería 12V 5 Ah moto,EnerNorte,Cabezales,19800,11,unid.
+AGR-COR-B68,Correa agrícola B68,CampoRex,Sembradoras,21200,18,unid.
+AGR-COR-C90,Correa agrícola C90,CampoRex,Sembradoras,26800,12,unid.
+AGR-FIL-HID,Filtro hidráulico tractor,FiltroSur,Sembradoras,19400,10,unid.
+AGR-FIL-COM,Filtro de combustible agrícola,FiltroSur,Sembradoras,8700,20,unid.
+AGR-MAN-1IN,Manguera hidráulica 1 pulgada x metro,CampoRex,Sembradoras,6900,80,m
+AGR-ROD-302,Rodamiento 30208 cónico,CampoRex,Sembradoras,14700,22,unid.
+AGR-GRA-400,Grasa multiuso 400 g,LubriCampo,Sembradoras,4800,64,unid.
+AGR-PIN-CAT,Pasador de enganche cat. 2,CampoRex,Sembradoras,6200,27,unid.
+AGR-ACE-HID,Aceite hidráulico ISO 68 20L,LubriCampo,Sembradoras,54300,8,balde
+AGR-RET-55,Retén 55x72x8,CampoRex,Sembradoras,2100,50,unid.
+FER-TOR-M8,Tornillo hex M8 x 30 zincado x100,FerreNorte,Recambios,3900,90,caja
+FER-TUE-M8,Tuerca M8 zincada x100,FerreNorte,Recambios,2400,110,caja
+FER-PRE-200,Precintos 200 mm negros x100,FerreNorte,Recambios,1800,75,bolsa
+FER-SIL-300,Silicona neutra 300 ml,FerreNorte,Recambios,4100,36,unid.
+FER-CIN-19,Cinta aisladora 19 mm negra,FerreNorte,Recambios,900,140,unid.
+FER-GUA-NIT,Guantes nitrilo talle L par,FerreNorte,Recambios,2600,48,par
+FER-LIN-50,Liña de albañil 50 m,FerreNorte,Recambios,3200,22,unid.
+FER-GRA-MET,Gramas metálicas surtidas x50,FerreNorte,Recambios,2100,40,caja

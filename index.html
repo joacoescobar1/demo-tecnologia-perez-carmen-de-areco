@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tecnología Perez · Portal de clientes</title>
+  <meta name="description" content="Demo de Nodo Ventas para Tecnología Perez, fabricación y distribución de repuestos agrícolas en Carmen de Areco: portal de clientes con lista de precios y pedido. Productos y precios de ejemplo.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1A1A1A">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/fotos/deposito.webp">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#login">Saltar al ingreso</a>
+  <div class="landing">
+    <section class="landing-photo on-dark">
+      <img src="img/fotos/deposito.webp" alt="Depósito con estanterías altas llenas de mercadería" width="1800" height="1100" fetchpriority="high">
+      <div class="landing-top">
+        <a class="brand wordmark" href="index.html">
+          <img class="brand-logo tile" src="img/brand/logo.png" alt="Tecnología Perez">
+          <span><b>Tecnología Perez</b><small>fabricación y distribución de repuestos agrícolas</small></span>
+        </a>
+        <a class="demo-tag" href="oferta/" title="Sitio demo hecho por Nodo Ventas">Demo</a>
+      </div>
+        <div class="landing-copy">
+        <h1>Tu lista de precios, al día y a un toque.</h1>
+        <p>Entrá con tu usuario y mirá el precio de tu cuenta, con foto y stock. Armá el pedido y mandalo por WhatsApp sin esperar que te pasen la lista.</p>
+        <ul class="landing-facts">
+          <li>Precio según tu cuenta</li>
+          <li>Más de 50 productos con foto</li>
+          <li>Pedido por WhatsApp</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="landing-form" id="login">
+      <div class="login-card">
+        <h2>Ingresar</h2>
+        <p class="hint">Portal de clientes de Tecnología Perez.</p>
+        <form id="login-form" novalidate>
+          <label for="usuario">Usuario</label>
+          <input class="field" id="usuario" name="usuario" autocomplete="username" autocapitalize="none" required>
+          <label for="password">Contraseña</label>
+          <input class="field" id="password" name="password" type="password" autocomplete="current-password" required>
+          <p class="err" id="login-err" role="alert"></p>
+          <button class="btn btn-primary" type="submit">Entrar al portal</button>
+        </form>
+        <div class="demo-users">
+          <p>Cuentas de prueba (contraseña <b>demo</b>). Tocá una para completar:</p>
+          <div class="chips">
+            <button class="chip" type="button" data-user="taller"><b>taller</b><span>Lista taller · −18%</span></button>
+            <button class="chip" type="button" data-user="mayorista"><b>mayorista</b><span>Lista mayorista · −32%</span></button>
+            <button class="chip" type="button" data-user="admin"><b>admin</b><span>Panel del dueño</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main>
+
+    <section class="band fotos-negocio">
+      <div class="wrap">
+        <div class="band-head">
+          <h2>Tecnología Perez en Carmen de Areco</h2>
+          <p>Fotos del local publicadas en su sitio oficial.</p>
+        </div>
+        <div class="fotos-row">
+          <figure>
+            <img src="img/brand/foto-oficina.webp" alt="Oficinas de Tecnología Perez en Carmen de Areco" loading="lazy" width="250" height="200">
+            <figcaption>Oficinas</figcaption>
+          </figure>
+          <figure>
+            <img src="img/brand/foto-fachada.webp" alt="Fachada con el cartel de Tecnología Perez, repuestos de cosechadoras" loading="lazy" width="250" height="200">
+            <figcaption>Local sobre Saavedra</figcaption>
+          </figure>
+          <figure>
+            <img src="img/brand/foto-deposito.webp" alt="Nave de Tecnología Perez en Carmen de Areco" loading="lazy" width="250" height="200">
+            <figcaption>Nave</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="band-head">
+          <h2>El mismo repuesto, tres precios</h2>
+          <p>Cada cliente ve solo su lista. El mostrador paga precio de lista; el taller y el mayorista, el descuento que les corresponde.</p>
+        </div>
+        <div class="compare">
+          <figure class="compare-photo" style="margin:0">
+            <img src="img/fotos/correa.webp" alt="Correa agrícola de ejemplo" loading="lazy" width="900" height="900">
+            <figcaption><b id="cmp-name">Correa agrícola B68</b><span id="cmp-code">COR-AGR-B68 · ejemplo</span></figcaption>
+          </figure>
+          <div class="tiers">
+            <div class="tier t-c"><div><div class="tier-name"><i></i>Mostrador</div><div class="who">Consumidor final</div></div><div><div class="amt" id="cmp-c">$8.500</div><div class="off">Precio de lista</div></div></div>
+            <div class="tier t-t"><div><div class="tier-name"><i></i>Taller</div><div class="who">Cuenta taller</div></div><div><div class="amt" id="cmp-t">$6.970</div><div class="off">18% menos</div></div></div>
+            <div class="tier t-m"><div><div class="tier-name"><i></i>Mayorista</div><div class="who">Cuenta mayorista</div></div><div><div class="amt" id="cmp-m">$5.780</div><div class="off">32% menos</div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" style="padding-top:0">
+      <div class="wrap">
+        <div class="band-head"><h2>Cuatro rubros, un solo pedido</h2><p>Cosechadora, cabezales, sembradoras y recambios en un solo pedido. Buscá por código, nombre o marca, o filtrá por rubro.</p></div>
+        <div class="rubros">
+          <div class="rubro"><img src="img/fotos/filtro-comb.webp" alt="Filtro agrícola" loading="lazy"><div><h3>Cosechadora</h3><span>Filtros, correas, recambios</span></div></div>
+          <div class="rubro"><img src="img/fotos/cadena.webp" alt="Cadena y recambio de cabezal" loading="lazy"><div><h3>Cabezales</h3><span>Cuchillas, sinfines, cadenas</span></div></div>
+          <div class="rubro"><img src="img/fotos/tractor.webp" alt="Máquina agrícola en el campo" loading="lazy"><div><h3>Sembradoras</h3><span>Discos, rodamientos, hidráulica</span></div></div>
+          <div class="rubro"><img src="img/fotos/rodamiento.webp" alt="Rodamiento" loading="lazy"><div><h3>Recambios</h3><span>Bulonería, retenes, insumos</span></div></div>
+        </div>
+      </div>
+          <div class="rubro"><img src="img/fotos/moto-cadena.webp" alt="Cadena y corona de moto" loading="lazy"><div><h3>Moto</h3><span>Transmisión, frenos, cubiertas</span></div></div>
+          <div class="rubro"><img src="img/fotos/tractor.webp" alt="Tractor trabajando en el campo" loading="lazy"><div><h3>Agro</h3><span>Correas, hidráulica, rodamientos</span></div></div>
+          <div class="rubro"><img src="img/fotos/tornillos.webp" alt="Bulones y tuercas" loading="lazy"><div><h3>Ferretería</h3><span>Bulonería, precintos, insumos</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" style="padding-top:0">
+      <div class="wrap">
+        <div class="how">
+          <article><b>1</b><h3>Entrás con tu usuario</h3><p>El negocio te da de alta y te asigna tu lista. Nadie ve el precio de otra cuenta.</p></article>
+          <article><b>2</b><h3>Armás el pedido</h3><p>Con foto, código, marca y stock aproximado. El total se calcula con tu precio.</p></article>
+          <article><b>3</b><h3>Lo mandás por WhatsApp</h3><p>El pedido llega ordenado al mostrador, listo para preparar.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <div><b style="color:#fff;font-family:var(--display);font-size:22px">Tecnología Perez</b><p style="margin-top:4px">Portal de clientes</p></div>
+      <div class="made-by">
+        <span>Portal demo diseñado por</span>
+        <a href="oferta/" aria-label="Nodo Ventas, ver la oferta"><img src="img/nodo/nodo-ventas-logo-blanco.svg" alt="Nodo Ventas" width="146" height="24"></a>
+        <a class="link" href="oferta/">Quiero un portal así para mi negocio</a>
+      </div>
+      <p class="legal">Demo de Nodo Ventas para mostrar un portal de precios. Tecnología Perez es un negocio real de Carmen de Areco. Productos y precios de ejemplo. Logo y fotos de la fachada publicados en <a href="https://tecnologiaperez.com.ar/">tecnologiaperez.com.ar</a>; fotos de productos de ejemplo: Unsplash (ver <a href="CREDITS.md">créditos</a>).</p>
+    </div>
+  </footer>
+  <script src="js/products.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
